@@ -1,0 +1,26 @@
+{
+  "offer": {
+    "_id": "12345",
+    "artistName": "DJ Marco",
+    "performerType": "dj",
+    "location": "Warszawa",
+    "description": "Profesjonalny DJ z wieloletnim doświadczeniem w prowadzeniu imprez.",
+    "price": {
+      "min": 1000,
+      "max": 2000
+    },
+    "duration": {
+      "min": 2,
+      "max": 6
+    },
+    "photos": ["photo1.jpg", "photo2.jpg"],
+    "musicStyles": ["House", "Techno", "Pop"],
+    "eventTypes": ["Wesele", "Impreza firmowa"],
+    "averageRating": 4.8,
+    "ratingsCount": 15,
+    "commentsCount": 12,
+    "userId": "user123",
+    "audioDemo": "demo.mp3",
+    "videoDemo": "https://youtube.com/watch?v=example"
+  }
+}

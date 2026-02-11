@@ -1,0 +1,78 @@
+/* AudioPlayer.css */
+.audio-player {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem;
+    background: var(--search-bg);
+    border-radius: 6px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.play-button {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: var(--button-hover);
+    border: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.play-button:hover {
+    background: var(--primary-hover);
+    transform: scale(1.05);
+}
+
+.play-button.playing {
+    background: var(--primary-hover);
+}
+
+.play-button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.audio-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.audio-title {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+.audio-progress {
+    height: 4px;
+    width: 100%;
+    background: var(--border-color);
+    border-radius: 2px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+}
+
+.audio-progress-bar {
+    height: 100%;
+    background: var(--button-hover);
+    transition: width 0.1s linear;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.audio-time {
+    display: flex;
+    gap: 4px;
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+}

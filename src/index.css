@@ -1,0 +1,129 @@
+:root {
+  /* Jasny motyw */
+  --navbar-bg: #ffffff;
+  /* Białe tło */
+  --text-color: #333;
+  /* Ciemny tekst */
+  --search-bg: #f1f1f1;
+  /* Jasne tło paska wyszukiwania */
+  --border-color: #ddd;
+  /* Jasna ramka */
+  --button-bg: transparent;
+  /* Przezroczyste tło przycisków */
+  --button-text: #333;
+  /* Ciemny tekst na przyciskach */
+  --button-hover: #9D73FF;
+  --primary-hover: #8a5ce8;
+  /* Fioletowy kolor tekstu po najechaniu */
+  --background: #f9f9f9;
+  /* Jasne tło strony */
+  --audio-controls-invert: 0;
+  --gradient-angle: 90deg;
+  --gradient-transparency: 0.8;
+  --navbar-bg-rgb: 255, 255, 255;
+  /* Dla jasnego motywu */
+}
+
+/* Ciemny motyw */
+[data-theme="dark"] {
+  --navbar-bg: #1E1E1E;
+  /* Ciemne tło */
+  --text-color: #f1f1f1;
+  /* Jasny tekst */
+  --search-bg: #333;
+  /* Ciemne tło paska wyszukiwania */
+  --border-color: #444;
+  /* Ciemna ramka */
+  --button-bg: transparent;
+  /* Przezroczyste tło przycisków */
+  --button-text: #f1f1f1;
+  /* Jasny tekst na przyciskach */
+  --button-hover: #9D73FF;
+  /* Fioletowy kolor tekstu po najechaniu */
+  --background: #121212;
+  /* Ciemne tło strony */
+  --audio-controls-invert: 1;
+  --gradient-transparency: 0.9;
+  --navbar-bg-rgb: 30, 30, 30;
+  /* Dla ciemnego motywu */
+}
+
+/* DARK THEME OVERRIDES */
+[data-theme="dark"] .Toastify__toast {
+  background-color: #2c2c2c;
+  color: #f1f1f1;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
+}
+
+[data-theme="dark"] .Toastify__toast--success {
+  background: #388e3c;
+  color: #e0ffe0;
+}
+
+[data-theme="dark"] .Toastify__toast--error {
+  background: #d32f2f;
+  color: #ffe0e0;
+}
+
+[data-theme="dark"] .Toastify__toast--info {
+  background: #9D73FF;
+  color: #e0d2ff;
+}
+
+/* Globalne style */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: var(--background);
+  color: var(--text-color);
+  transition: background 0.3s, color 0.3s;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: var(--navbar-bg);
+  color: var(--text-color);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s, color 0.3s;
+}
+
+.footer {
+  margin-top: auto;
+  background-color: var(--navbar-bg);
+  color: var(--text-color);
+  text-align: center;
+  padding: 15px 20px;
+  border-top: 1px solid var(--border-color);
+  transition: background 0.3s, color 0.3s;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  flex-wrap: wrap;
+}
+
+.footer-logo {
+  height: 20px;
+  width: auto;
+}
+
+.footer-text {
+  font-size: 14px;
+  text-align: center;
+}
+
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}

@@ -1,0 +1,22 @@
+{
+  "offers": [
+    {
+      "_id": "12345",
+      "artistName": "DJ Marco",
+      "performerType": "dj",
+      "location": "Warszawa",
+      "price": {
+        "min": 1000,
+        "max": 2000
+      },
+      "duration": {
+        "min": 2,
+        "max": 6
+      },
+      "photos": ["photo1.jpg"],
+      "averageRating": 4.8,
+      "commentsCount": 12
+    }
+  ],
+  "totalCount": 1
+}
