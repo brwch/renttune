@@ -27,7 +27,7 @@ The application provides a dashboard-driven interface that aggregates key metric
 <img width="1920" height="1080" alt="1 1" src="https://github.com/user-attachments/assets/dd8c9b3e-4c35-4058-ad31-71bcbf54d302" />
 &nbsp;&nbsp;
 <div align="right"> <details>
-  <summary>📸 View more</summary>
+  <summary>View more</summary>
     <br>
       <img width="1000" src="https://github.com/user-attachments/assets/ffb006d7-a7a7-4503-995b-15dfd3a9917e" />
       &nbsp;&nbsp;
@@ -37,7 +37,7 @@ The application provides a dashboard-driven interface that aggregates key metric
        &nbsp;&nbsp;
         <p align="center">
           <a href="https://docs.google.com/presentation/d/1hrjEWS7jR6lBMA304_u9NTs1dsGSZkUX8Sk1uiSzgdI/present">
-            <img src="https://img.shields.io/badge/Prezentacja-Google%20Slides-orange?style=for-the-badge&logo=google-slides" alt="Google Slides">
+            <img src="https://img.shields.io/badge/Presentation-Google%20Slides-orange?style=for-the-badge&logo=google-slides" alt="Google Slides">
           </a>
         </p>
 </details> </div>
